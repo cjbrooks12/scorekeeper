@@ -1,0 +1,415 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView2"
+                android:text="Suspects"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Colonel Mustard"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Professor Plum"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Mr. Green"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Mrs. Peacock"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Miss Scarlet"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Mrs. White"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <TextView
+                android:id="@+id/textView2"
+                android:text="Weapons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	        
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Knife"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Candlestick"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Revolver"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Rope"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Lead Pipe"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Wrench"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <TextView
+                android:text="Rooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Hall"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Lounge"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Dining Room"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Kitchen"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Ballroom"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Conservatory"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Billiard Room"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Library"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <CheckBox
+	                android:text="Study"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+	            <EditText
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	            </EditText>
+	        </LinearLayout>
+	        <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_blue_light" />
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Holo.Light.Dialog"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="22sp"
+        android:text="@string/number_of_players"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the number of players to start the game with. More can be added later."/>
+        
+    <Spinner
+	    android:id="@+id/numberOfPlayersSpinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+    
+    <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select which buttons scores will be incremented by. You can change these values by long-pressing any button."/>
+      
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" 
+       android:weightSum="5">
+        <ToggleButton
+            android:id="@+id/generateToggle0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/one"
+            android:textOn="@string/one"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toggleClicked"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/generateToggle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/five"
+            android:textOn="@string/five"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toggleClicked"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/generateToggle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/ten"
+            android:textOn="@string/ten"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toggleClicked"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/generateToggle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/twenty_five"
+            android:textOn="@string/twenty_five"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toggleClicked"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:id="@+id/generateToggle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/one_hundred"
+            android:textOn="@string/one_hundred"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />         
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/generateReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="resetToggles"
+        android:text="Reset Toggle Values" />
+	
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate"/>   
+
+</LinearLayout>

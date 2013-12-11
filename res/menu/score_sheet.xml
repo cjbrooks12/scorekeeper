@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/action_undo"
+          android:title="Undo"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/action_redo"
+          android:title="Redo"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/ic_menu_add"
+          android:title="Save"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_save"
+          android:icon="@drawable/ic_menu_save"
+          android:title="Save"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_save_as"
+          android:title="Save As"
+          android:showAsAction="never" />
+</menu>

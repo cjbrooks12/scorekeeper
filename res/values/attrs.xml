@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="ScoreCell">
+       <attr name="setName" format="string" />
+       <attr name="setScore" format="integer" />
+   </declare-styleable>
+</resources>

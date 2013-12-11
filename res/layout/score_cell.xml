@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cellLayout"
+    android:layout_marginBottom="1dp"
+    android:background="@drawable/card_background"  >
+    
+    <TextView
+	    android:id="@+id/cellName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textSize="25sp"
+	    android:text="Player" />
+    
+    <View
+        android:id="@+id/cellBarTwo"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/transparent" />
+    
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:id="@+id/cellScoreLayout" >
+	<TextView
+	    android:id="@+id/cellScore"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:textSize="45sp"
+	    android:text="@string/zero"  />
+	</LinearLayout>
+	    
+    <View
+        android:id="@+id/cellBarThree"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/holo_orange_dark" />
+    
+    <TextView
+        android:id="@+id/cellHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:text="@string/zero" />
+   
+</LinearLayout>
